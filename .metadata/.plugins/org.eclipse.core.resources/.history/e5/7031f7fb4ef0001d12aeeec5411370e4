@@ -1,0 +1,35 @@
+package principal;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//uma constante é quando seu valor não muda
+		final double PI = 3.1415;
+		int valor1 = 50;
+		int valor2 = 65;
+		
+		//realiza a potencia
+		System.out.println(Math.pow(2 , 2));
+		
+		//passagem de 2 numeros como parametro
+		//retorna o maior deles
+		System.out.println(Math.max(valor2 , valor1));
+		
+		//é o inverso do max, pega o minimo
+		System.out.println(Math.min(5, 20));
+		
+		//retorna a raiz quadrada de um numero
+		System.out.println(Math.sqrt(18));
+		
+		//arredonda o número (para mais ou para menos)
+		System.out.println(Math.round(25.6578));
+		
+		//podemos realizar calculos com valores
+		//retornados pelo calculo de Math.
+		System.out.println(2 + Math.sqrt(18));
+		
+	}
+
+}
