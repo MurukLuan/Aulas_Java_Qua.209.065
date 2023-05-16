@@ -75,16 +75,6 @@ public class Program {
 		if(media < 6) {
 			System.out.println("Reprovado! media: " + media);
 		}
-		else if(media >= 6 && media < 7) {
-			System.out.println("Recuperação! media: " + media);
-		}
-		else if(media >= 7 && media < 10) {
-			System.out.println("Aprovado! media: " + media);
-		}
-		else {
-			System.out.println("Aprovado com honras! media: " + media);
-		}
-		
 		
 		sc.close();
 	}
